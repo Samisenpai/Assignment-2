@@ -7,11 +7,8 @@
     font-family: "Quicksand", serif;
 }
 
-body{
-    background-image: url(/assets/bg.png);
-    margin: 0 auto;
-    width: 80%;
-}
+
+
 
 
 /*? Variables For this Website  */
@@ -32,6 +29,11 @@ body{
 
 .skyblue{
     color: #01ACFD;
+}
+
+.wp{
+    margin: 0 auto;
+    width: 80%;
 }
 
 /*? shared style end  */
@@ -154,7 +156,11 @@ body{
 
 
 .curriculum{
+    background: url(../assets/bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 100vh;
+   
 }
 
 .curriculum-container{
