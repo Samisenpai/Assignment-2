@@ -148,5 +148,119 @@ body{
 
 
 /*? hero section  end*/
-
 /*? header section  end */
+
+/*? curriculum section  */
+
+
+.curriculum{
+    height: 100vh;
+}
+
+.curriculum-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.curriculum-tittle{
+    font-size:2.5rem;
+    margin-bottom: 80px;
+    margin-top: 30px;
+    
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    margin-bottom: 80px;
+}
+
+.card{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dbf0f9;
+    padding: 52px 40px;
+    border-radius: 18px;
+    background:linear-gradient(#ddf1fa,white, white, white);
+    
+}
+
+.card-2{
+    background: linear-gradient(#faf0db, white, white, white);
+    border: 1px solid #FFF4DC;
+}
+
+.card-3{
+    background: linear-gradient(#eadffb, white, white, white);
+    border: 1px solid #eadffb;
+}
+
+.card-img{
+    margin-bottom: 32px;
+}
+
+.card-tittle{
+    font-size: 1.5rem;
+    margin-bottom: 32px;
+}
+
+.card-description{
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.readmore-btn .btn{
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #01ACFD;
+}
+
+.readmore-btn .card-2-btn{
+    color: #F0AA00;
+    
+}
+
+.readmore-btn .card-3-btn{
+    
+    color: #8700FF;
+}
+
+
+.arrows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 70px;
+    height: 70px;
+    background-color: var(--primary);
+    border-radius: 50%;
+}
+
+
+
+.arrows i{
+    font-size: 2rem;
+}
+
+
+
+/*? curriculum section  */
