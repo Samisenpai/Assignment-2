@@ -156,7 +156,7 @@
 
 
 .curriculum{
-    background: url(../assets/bg.png) no-repeat;
+    background: url(../assets/bg.png) ;
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -171,7 +171,7 @@
 
 }
 
-.curriculum-tittle{
+.tittle{
     font-size:2.5rem;
     margin-bottom: 80px;
     margin-top: 30px;
@@ -270,3 +270,129 @@
 
 
 /*? curriculum section  */
+
+
+
+
+/*? stories section  */
+
+.stories{
+   
+    background: linear-gradient(to bottom, white, #f9e3bc, #f9e3bc);
+    height: 100vh;
+    
+}
+
+.stories-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.stories-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 80px;
+    gap: 20px;
+    
+}
+.story-card{
+    grid-row: span 3;
+    grid-column: span 2;
+    width: 540px;
+    height: 630px;
+    display: flex;
+    background-color: white;
+    border-radius: 18px;
+    flex-direction: column;
+    justify-content:center;
+    align-items: start;
+    margin-bottom: 30px;
+    
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 0 38px;
+}
+
+.story-image img{
+    border-radius: 18px 18px 0 0;
+    margin-bottom: 58px;
+    overflow: hidden;
+}
+
+.story-date{
+    position: relative;
+    margin-top: -90px;
+    padding: 15px 20px;
+    border-radius: 47px;
+    color: white;
+    background-color: #3CD8E8;
+    margin-bottom: 53px;
+}
+
+.story-header{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 51px;
+}
+
+.story-description{
+    margin-bottom: 34px;
+}
+
+
+.mini-card{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 290px;
+    height: 300px;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.mini-img img{
+    border-radius: 16px 16px 0 0;
+    overflow: hidden;
+   
+}
+.mini-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 28px 37px;
+}
+.mini-date{
+    position: relative;
+    margin-top: -55px;
+    background: #95B226;
+    color: white;
+    padding: 10px 19px;
+    border-radius: 48px;
+    margin-bottom: 30px;
+}
+
+.mini-heading{
+    font-weight: 800;
+}
+
+.purple{
+    background-color: #5D58F0;
+}
+
+
+
+
+/*? stories section end */
