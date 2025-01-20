@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0  ;
+    box-sizing: border-box;
+    font-family: "Quicksand", serif;
+}
+
+body{
+    background-image: url(/assets/bg.png);
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+/*? Variables For this Website  */
+
+:root{
+    --primary: #FEA301;
+    --secondary:#111111;
+    --skyblue: #01ACFD;
+}
+
+/*? Variables For this Website  */
+
+/*? shared style  */
+
+.primary{
+    color: #FEA301;
+}
+
+.skyblue{
+    color: #01ACFD;
+}
+
+/*? shared style end  */
+
+
+/*? header section  */
+
+.header-section{
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+}
+
+.logo img{
+    width: 100%;
+    
+}
+
+.name{
+    font-size: 1.8rem;
+}
+
+.menus ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.menus ul li{
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+
+/*? contact button  */
+
+.contact-btn .btn {
+    color: white;
+    background-color: var(--primary);
+    border: none;
+    border-radius: 12px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 0.9rem 5rem;
+}
+
+/*? contact button  */
+
+/*? menus collor  */
+
+.menus #home{
+    color: orange;
+}
+
+#about{
+    color: #01ACFD;
+}
+#facilities{
+    color: #05D4DF;
+}
+
+#admission{
+    color: #5D58EF;
+}
+
+/*? menus collor  */
+
+
+/*? hero section  */
+
+.hero-container{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.tittle{
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.description{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.enroll-btn .btn{
+    color: white;
+    background-color:#01ACFD;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 0.9rem 5rem;
+}
+
+
+/*? hero section  end*/
+
+/*? header section  end */
