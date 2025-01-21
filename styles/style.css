@@ -92,6 +92,11 @@
     padding: 0.9rem 5rem;
 }
 
+
+.bar{
+    display: none;
+}
+
 /*? contact button  */
 
 /*? menus collor  */
@@ -123,10 +128,10 @@
     align-items: center;
     gap: 50px;
 }
-.side-tittle{
+.hero-tittle{
     margin-bottom: 24px;
 }
-.side-tittle h1{
+.hero-tittle h1{
     font-size: 4rem;
 }
 
@@ -142,7 +147,7 @@
     border-radius: 12px;
     font-size: 1.4rem;
     font-weight: 600;
-    padding: 0.9rem 5rem;
+    padding: 0.9rem 3rem;
 }
 
 
@@ -210,6 +215,7 @@
 }
 
 .card-img{
+    
     margin-bottom: 32px;
 }
 
@@ -277,7 +283,7 @@
 
 .stories{
    
-    background: linear-gradient(to bottom, white, #f9e3bc, #f9e3bc) transparent;
+    background: linear-gradient(180deg, white, #f9e3bc, #f9e3bc),url(../assets/dribble.png), transparent;
      /* height: 100vh; */
     
 }
@@ -389,8 +395,9 @@
     margin-bottom: 30px;
 }
 
-.mini-heading{
+.mini-header{
     font-weight: 800;
+    font-size: 1rem;
 }
 
 .purple{
@@ -406,7 +413,7 @@
     border-radius: 12px;
     font-size: 1.4rem;
     font-weight: 600;
-    padding: 0.9rem 5rem;
+    padding: 0.9rem 4rem;
 }
 
 .view-btn{
@@ -527,3 +534,226 @@
 
 
 /*? footer section end */
+
+
+/*? Responsive For Mobile device  */
+
+@media screen and (max-width:576px){
+    
+
+    /*? Header section  */
+
+
+    
+
+    .navbar{
+        margin-top: 10px;
+        border-bottom: 1px solid var(--primary);
+        padding-bottom: 10px;
+        
+        
+    }
+    .name{
+        display: none;
+    }
+    .bar{
+        font-size: 1.5rem;
+        display: block;
+    }
+    .menus{
+        display: none;
+    }
+
+    .contact-btn{
+        display: none;
+    }
+
+    .hero-container{
+        display:flex ;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .side-2{
+        margin-top: -20px;
+    }
+
+    .side-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-tittle h1{
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .description{
+        text-align: center;
+        font-size: 1.2rem;
+        color: black;
+        font-weight: 500;
+    }
+
+    .enroll-btn .btn{
+        font-size: 1.3rem;
+    }
+
+    .kid img{
+        width: 336px;
+        width: 100%;
+    }
+
+
+
+    /*? Header section  */
+
+
+    /*? curriculum section  */
+
+    .card{
+        width: 350px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #dbf0f9;
+        padding: 52px 40px;
+        border-radius: 18px;}
+  
+
+    .curriculum-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tittle{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+
+    .arrows{
+        display: none;
+    }
+
+     /*? curriculum section end  */
+
+
+     /*? our stories section  */
+
+    .stories-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .story-card{
+        display: none;
+    }
+
+
+    .mini-card{
+  
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 170px;
+        height: 180px;
+        background-color: white;
+        border-radius: 16px;
+        gap:  10px;
+    }
+    
+    .mini-img img{
+        width: 100%;
+        border-radius: 16px 16px 0 0;
+        overflow: hidden;
+       
+    }
+    .mini-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding: 10px 17px;
+    }
+    .mini-date{
+        position: relative;
+        margin-top: -35px;
+        background: #95B226;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 48px;
+        margin-bottom: 10px;
+        font-size: .7rem;
+    }
+    
+    .mini-header{
+        font-size: .7rem;
+        font-weight: 600;
+        
+    }
+    
+    .purple{
+        background-color: #5D58F0;
+    }
+    
+
+    .stories-cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 40px;
+    }
+
+
+    .view-btn .btn{
+        font-size: .8rem;
+        margin-bottom: -30px;
+    }
+
+    /*? our stories section end */
+
+
+
+    /*? footer section  */
+
+    .footer-section{
+        height: auto;
+    }
+
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 2rem;
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
+
+
+
+
+     /*? footer section  */
+}
+
+
+
+/*? Responsive For Mobile device end  */
+
+
