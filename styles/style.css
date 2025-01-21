@@ -36,6 +36,8 @@
     width: 80%;
 }
 
+
+
 /*? shared style end  */
 
 
@@ -44,6 +46,8 @@
 .header-section{
     /* height: 100vh; */
 }
+
+
 
 .navbar{
     display: flex;
@@ -543,12 +547,20 @@
 
     /*? Header section  */
 
+    .full-width{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 282px;
+        
+    }
 
     
 
     .navbar{
         margin-top: 10px;
-        border-bottom: 1px solid var(--primary);
+        border-bottom: 2px solid var(--primary);
         padding-bottom: 10px;
         
         
@@ -636,6 +648,7 @@
     .tittle{
         text-align: center;
         font-size: 1.5rem;
+        margin-top: -20px;
     }
 
     .cards{
