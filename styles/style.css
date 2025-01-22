@@ -626,6 +626,7 @@
 
     /*? Header section  */
 
+
     .full-width{
         display: flex;
         justify-content: center;
@@ -710,6 +711,8 @@
 
     /*? curriculum section  */
 
+
+ 
     .card{
         width: 350px;
         height: 500px;
@@ -727,6 +730,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
     }
 
     .tittle{
