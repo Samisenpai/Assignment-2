@@ -106,6 +106,14 @@
     font-size: 1.4rem;
     font-weight: 600;
     padding: 0.9rem 5rem;
+    cursor: pointer;
+}
+
+.contact-btn .btn:hover{
+    color: var(--primary);
+    background-color: white;
+    outline: 3px solid var(--primary);
+    transition: .1s;
 }
 
 
@@ -119,17 +127,37 @@
 
 .menus #home{
     color: orange;
+    cursor: pointer;
 }
-
+.menus #home:hover{
+    border-bottom: 3px solid var(--primary);
+    transition: .1s ease;
+}
 #about{
     color: #01ACFD;
+    cursor: pointer;
+}
+
+#about:hover{
+    border-bottom: 3px solid #01ACFD;
+    transition: .1s ease;
 }
 #facilities{
     color: #05D4DF;
+    cursor: pointer;
+}
+#facilities:hover{
+    border-bottom: 3px solid #05D4DF;
+    transition: .1s ease;
 }
 
 #admission{
     color: #5D58EF;
+    cursor: pointer;
+}
+#admission:hover{
+    border-bottom: 3px solid #5D58EF;
+    transition: .1s ease;
 }
 
 /*? menus collor  */
@@ -164,6 +192,15 @@
     font-size: 1.4rem;
     font-weight: 600;
     padding: 0.9rem 3rem;
+    cursor: pointer;
+}
+
+.enroll-btn .btn:hover{
+    color: #01ACFD;
+    background-color: white;
+    outline: 3px solid #01ACFD;
+    transition: .3s ease;
+   
 }
 
 
@@ -178,9 +215,6 @@
     background-position: center;
     background-size: cover;
     /* height: 100vh; */
-    
-    
-   
 }
 
 .curriculum-container{
@@ -208,6 +242,7 @@
 }
 
 .card{
+    
     width: 400px;
     height: 500px;
     display: flex;
@@ -246,6 +281,11 @@
     margin-bottom: 32px;
 }
 
+.readmore-btn{
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
 .readmore-btn .btn{
     border: none;
     font-size: 1.1rem;
@@ -253,14 +293,29 @@
     color: #01ACFD;
 }
 
+.readmore-btn .btn:hover{
+    border-bottom: 3px solid #01ACFD;
+    transition: .1s ease;
+}
+
 .readmore-btn .card-2-btn{
     color: #F0AA00;
     
 }
 
+.readmore-btn .card-2-btn:hover{
+    border-bottom: 3px solid #F0AA00;
+    transition: .1s ease;
+}
+
 .readmore-btn .card-3-btn{
     
     color: #8700FF;
+}
+
+.readmore-btn .card-3-btn:hover{
+    border-bottom: 3px solid #8700FF;
+    transition: .1s ease;
 }
 
 
@@ -269,6 +324,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
+    cursor: pointer;
     
 }
 
@@ -433,6 +489,14 @@
     padding: 0.9rem 4rem;
 }
 
+.view-btn .btn:hover{
+    color: #01ACFD;
+    background-color: white;
+    outline: 3px solid #01ACFD;
+    transition: .3s ease;
+   
+}
+
 .view-btn{
     margin-bottom: 100px;
 }
@@ -502,6 +566,7 @@
     font-size: 1.2rem;
     color: white;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 
@@ -523,6 +588,7 @@
     justify-content: start;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 }
 
 .icons i{
@@ -651,7 +717,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border: 1px solid #dbf0f9;
+        /* border: 1px solid #dbf0f9; */
         padding: 52px 40px;
         border-radius: 18px;}
   
